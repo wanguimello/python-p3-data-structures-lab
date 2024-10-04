@@ -49,3 +49,18 @@ def get_average_heat_level(spicy_foods):
 def create_spicy_food(spicy_foods, new_food):
     spicy_foods.append(new_food)
     return spicy_foods
+
+# lib/dog.py
+
+class Dog:
+    def sit(self):
+        print("The dog is sitting.")
+
+# lib/person.py
+
+class Person:
+    def talk(self):
+        print("Hello World!")
+    
+    def walk(self):
+        print("The person is walking.")
